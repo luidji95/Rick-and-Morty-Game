@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+.score-div {
+  display: flex;
+  justify-content: space-between;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 kolone */
+  grid-template-rows: repeat(3, 1fr); /* 3 reda */
+  gap: 10px; /* Razmak između elemenata */
+}
+
+.grid-item {
+  background-color: #f3f3f3;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
