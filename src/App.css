@@ -55,8 +55,7 @@
   background-color: #f3f3f3;
   border: 1px solid #ccc;
   text-align: center;
-  padding: 20px;
-  font-size: 18px;
+  padding: 10px;
 }
 .modal-overlay {
   position: fixed;
@@ -96,7 +95,7 @@
   width: 100%;
   height: auto;
   max-width: 150px;
-  max-height: 150px;
+  max-height: 250px;
   object-fit: cover;
   border-radius: 8px;
 }
